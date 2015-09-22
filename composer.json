@@ -45,9 +45,13 @@
     },
     "autoload" : {
         "psr-4" : {
-            "Prooph\\Proophessor\\" : "src",
-            "Prooph\\Proophessor\\Migrations\\" : "migrations"
+            "Prooph\\ProophessorDo\\" : "src",
+            "Prooph\\ProophessorDo\\Migrations\\" : "migrations"
         }
     },
-    "bin-dir" : "./bin"
+    "autoload-dev" : {
+        "psr-4" : {
+            "ProophTest\\ProophessorDo\\": "tests/"
+        }
+    }
 }

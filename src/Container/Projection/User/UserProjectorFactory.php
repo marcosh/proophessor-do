@@ -8,15 +8,15 @@
  *
  * Date: 5/2/15 - 11:50 PM
  */
-namespace Prooph\Proophessor\Container\Projection\User;
+namespace Prooph\ProophessorDo\Container\Projection\User;
 
 use Interop\Container\ContainerInterface;
-use Prooph\Proophessor\Projection\User\UserProjector;
+use Prooph\ProophessorDo\Projection\User\UserProjector;
 
 /**
  * Class UserProjectorFactory
  *
- * @package Prooph\Proophessor\Projection\User
+ * @package Prooph\ProophessorDo\Projection\User
  * @author Alexander Miertsch <kontakt@codeliner.ws>
  */
 final class UserProjectorFactory
